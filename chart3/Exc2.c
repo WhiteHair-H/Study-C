@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int main()
+int mainc2()
 {
 	int a;
 	char b;

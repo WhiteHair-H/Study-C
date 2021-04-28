@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int main12()
+int mainc1()
 {
 	// 이름 나이 주소
 

@@ -15,46 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="4-1.c">
+    <ClCompile Include="6-1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="4-2.c">
+    <ClCompile Include="6-2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="4-3.c">
+    <ClCompile Include="6-3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="4-4.c">
+    <ClCompile Include="6-4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="4-5.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4-6.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4-7.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4-8.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4-9.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4-10.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4-11.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4-12.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4-13.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4-14.c">
+    <ClCompile Include="Exc.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

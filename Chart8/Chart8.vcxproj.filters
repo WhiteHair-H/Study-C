@@ -15,28 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="6-1.c">
+    <ClCompile Include="8-1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="6-2.c">
+    <ClCompile Include="8-2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="6-3.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="6-4.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Exc.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="GGD.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="6-5.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="calc.c">
+    <ClCompile Include="8-3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

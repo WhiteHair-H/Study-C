@@ -15,28 +15,40 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="6-1.c">
+    <ClCompile Include="ex.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="6-2.c">
+    <ClCompile Include="function1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="6-3.c">
+    <ClCompile Include="function2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="6-4.c">
+    <ClCompile Include="function3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Exc.c">
+    <ClCompile Include="func4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="GGD.c">
+    <ClCompile Include="7-2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="6-5.c">
+    <ClCompile Include="7-3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="calc.c">
+    <ClCompile Include="7-4.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Calc.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncMain.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7-5.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7-7.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

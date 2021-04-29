@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 
-int main()
+int maine()
 {
 	char star = '*';
 	char blank = ' ';

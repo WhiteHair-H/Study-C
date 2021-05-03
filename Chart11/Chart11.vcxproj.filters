@@ -15,31 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="10-1.c">
+    <ClCompile Include="11-1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="10-2.c">
+    <ClCompile Include="11-2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="10-3.c">
+    <ClCompile Include="11-3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="10-4.c">
+    <ClCompile Include="11-4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="10-5.c">
+    <ClCompile Include="11-5.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="10-6.c">
+    <ClCompile Include="11-6.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="10-7.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="pointerExam.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="arry.c">
+    <ClCompile Include="11-7.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

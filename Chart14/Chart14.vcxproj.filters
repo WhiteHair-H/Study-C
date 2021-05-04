@@ -15,55 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="12-1.c">
+    <ClCompile Include="14-1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="12-2.c">
+    <ClCompile Include="14-2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="12-3.c">
+    <ClCompile Include="14-3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="12-4.c">
+    <ClCompile Include="14-4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="12-5.c">
+    <ClCompile Include="14-5.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="12-6.c">
+    <ClCompile Include="14-6.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="12-7.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="gts.c">
+    <ClCompile Include="14-7.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="exc.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="12-8.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="12-9.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="12-10.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="12-11.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="12-12.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="12-13.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="xsize.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="strcpy.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

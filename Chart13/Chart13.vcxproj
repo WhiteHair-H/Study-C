@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{521fc489-9542-412b-9488-0d58f64e859a}</ProjectGuid>
-    <RootNamespace>Chart12</RootNamespace>
+    <ProjectGuid>{94d6310f-2dcf-4e54-9fd5-b0287b94769d}</ProjectGuid>
+    <RootNamespace>Chart13</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -86,7 +86,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -139,23 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="12-1.c" />
-    <ClCompile Include="12-10.c" />
-    <ClCompile Include="12-11.c" />
-    <ClCompile Include="12-12.c" />
-    <ClCompile Include="12-13.c" />
-    <ClCompile Include="12-2.c" />
-    <ClCompile Include="12-3.c" />
-    <ClCompile Include="12-4.c" />
-    <ClCompile Include="12-5.c" />
-    <ClCompile Include="12-6.c" />
-    <ClCompile Include="12-7.c" />
-    <ClCompile Include="12-8.c" />
-    <ClCompile Include="12-9.c" />
-    <ClCompile Include="exc.c" />
-    <ClCompile Include="gts.c" />
-    <ClCompile Include="strcpy.c" />
-    <ClCompile Include="xsize.c" />
+    <ClCompile Include="13-1.c" />
+    <ClCompile Include="13-2.c" />
+    <ClCompile Include="13-3.c" />
+    <ClCompile Include="13-4.c" />
+    <ClCompile Include="13-5.c" />
+    <ClCompile Include="13-6.c" />
+    <ClCompile Include="13-7.c" />
+    <ClCompile Include="13-8.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

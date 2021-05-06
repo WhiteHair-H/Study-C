@@ -15,31 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="14-1.c">
+    <ClCompile Include="15-1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="14-2.c">
+    <ClCompile Include="15-2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="14-3.c">
+    <ClCompile Include="15-3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="14-4.c">
+    <ClCompile Include="15-4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="14-5.c">
+    <ClCompile Include="15-5.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="14-6.c">
+    <ClCompile Include="15-6.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="14-7.c">
+    <ClCompile Include="배열과포인터관계.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="exc.c">
+    <ClCompile Include="15-7.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Exe.c">
+    <ClCompile Include="15-8.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15-9.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

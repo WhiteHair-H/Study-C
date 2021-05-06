@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3f15d562-22fc-49f1-be16-9cde3f349c9e}</ProjectGuid>
-    <RootNamespace>Chart7</RootNamespace>
+    <ProjectGuid>{a8cddc89-565c-450f-aa34-e12181ee28f8}</ProjectGuid>
+    <RootNamespace>Chart15</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,18 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="7-2.c" />
-    <ClCompile Include="7-3.c" />
-    <ClCompile Include="7-4.c" />
-    <ClCompile Include="7-5.c" />
-    <ClCompile Include="7-7.c" />
-    <ClCompile Include="Calc.c" />
-    <ClCompile Include="ex.c" />
-    <ClCompile Include="func4.c" />
-    <ClCompile Include="FuncMain.c" />
-    <ClCompile Include="function1.c" />
-    <ClCompile Include="function2.c" />
-    <ClCompile Include="function3.c" />
+    <ClCompile Include="15-1.c" />
+    <ClCompile Include="15-2.c" />
+    <ClCompile Include="15-3.c" />
+    <ClCompile Include="15-4.c" />
+    <ClCompile Include="15-5.c" />
+    <ClCompile Include="15-6.c" />
+    <ClCompile Include="15-7.c" />
+    <ClCompile Include="15-8.c" />
+    <ClCompile Include="15-9.c" />
+    <ClCompile Include="배열과포인터관계.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

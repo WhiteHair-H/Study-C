@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3f15d562-22fc-49f1-be16-9cde3f349c9e}</ProjectGuid>
-    <RootNamespace>Chart7</RootNamespace>
+    <ProjectGuid>{543a066b-b8da-4ccb-9317-17b40c753c64}</ProjectGuid>
+    <RootNamespace>Chart16</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,18 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="7-2.c" />
-    <ClCompile Include="7-3.c" />
-    <ClCompile Include="7-4.c" />
-    <ClCompile Include="7-5.c" />
-    <ClCompile Include="7-7.c" />
-    <ClCompile Include="Calc.c" />
-    <ClCompile Include="ex.c" />
-    <ClCompile Include="func4.c" />
-    <ClCompile Include="FuncMain.c" />
-    <ClCompile Include="function1.c" />
-    <ClCompile Include="function2.c" />
-    <ClCompile Include="function3.c" />
+    <ClCompile Include="16-1.c" />
+    <ClCompile Include="16-2.c" />
+    <ClCompile Include="16-3.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

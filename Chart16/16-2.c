@@ -4,7 +4,7 @@
 //int main()
 //{
 //	int* pi;
-//	int i, sum = 0;
+//	int i, sum = 0; // 초기화를 해야 값을 누적시킬 수 있음
 //
 //	pi = (int*)malloc(5 * sizeof(int));
 //	if (pi == NULL)

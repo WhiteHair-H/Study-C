@@ -15,58 +15,41 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="19-2.c">
-      <Filter>리소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="19-3.c">
-      <Filter>리소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="19-4.c">
-      <Filter>리소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="19-5.c">
-      <Filter>리소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="19-6.c">
-      <Filter>리소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="19-8.c">
-      <Filter>리소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="sub.c">
+    <ClCompile Include="2-3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="19-9.c">
-      <Filter>리소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="input.c">
+    <ClCompile Include="2-4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="average.c">
+    <ClCompile Include="2-5.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="main.c">
+    <ClCompile Include="2-6.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="19-10.c">
-      <Filter>리소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="19-7.c">
-      <Filter>리소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Test.c">
-      <Filter>리소스 파일</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="student.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="line.h">
+    <ClCompile Include="2-7.c">
       <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="point.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
+    </ClCompile>
+    <ClCompile Include="2-8.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2-9.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2-10.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2-11.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2-12.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2-13.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2-14.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

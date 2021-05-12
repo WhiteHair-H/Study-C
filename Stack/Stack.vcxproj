@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5fc5f824-806f-4709-820d-844cef171e02}</ProjectGuid>
-    <RootNamespace>Chart19</RootNamespace>
+    <ProjectGuid>{a0bb6255-a23e-4fdf-985d-8159f570da95}</ProjectGuid>
+    <RootNamespace>Stack</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -86,7 +86,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>false</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -139,25 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="19-10.c" />
-    <ClCompile Include="19-2.c" />
-    <ClCompile Include="19-3.c" />
-    <ClCompile Include="19-4.c" />
-    <ClCompile Include="19-5.c" />
-    <ClCompile Include="19-6.c" />
-    <ClCompile Include="19-7.c" />
-    <ClCompile Include="19-8.c" />
-    <ClCompile Include="19-9.c" />
-    <ClCompile Include="average.c" />
-    <ClCompile Include="input.c" />
-    <ClCompile Include="main.c" />
-    <ClCompile Include="sub.c" />
-    <ClCompile Include="Test.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="line.h" />
-    <ClInclude Include="point.h" />
-    <ClInclude Include="student.h" />
+    <ClCompile Include="2-10.c" />
+    <ClCompile Include="2-11.c" />
+    <ClCompile Include="2-12.c" />
+    <ClCompile Include="2-13.c" />
+    <ClCompile Include="2-14.c" />
+    <ClCompile Include="2-3.c" />
+    <ClCompile Include="2-4.c" />
+    <ClCompile Include="2-5.c" />
+    <ClCompile Include="2-6.c" />
+    <ClCompile Include="2-7.c" />
+    <ClCompile Include="2-8.c" />
+    <ClCompile Include="2-9.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

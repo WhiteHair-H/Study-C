@@ -85,7 +85,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
@@ -139,12 +139,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="19-10.c" />
     <ClCompile Include="19-2.c" />
     <ClCompile Include="19-3.c" />
     <ClCompile Include="19-4.c" />
+    <ClCompile Include="19-5.c" />
+    <ClCompile Include="19-6.c" />
+    <ClCompile Include="19-7.c" />
+    <ClCompile Include="19-8.c" />
+    <ClCompile Include="19-9.c" />
+    <ClCompile Include="average.c" />
+    <ClCompile Include="input.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="sub.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="line.h" />
+    <ClInclude Include="point.h" />
     <ClInclude Include="student.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

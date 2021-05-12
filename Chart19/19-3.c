@@ -1,6 +1,8 @@
 //#include <stdio.h>
-//#define SUM(a, b)((a) + (b))
-//#define MUL(a, b)((a) * (b))
+//#define SUM(a, b)(a + b)
+//#define MUL(a, b)(a * b)
+//#define test(a)((a) * (10)) // 인수별로 괄호넣어야 값이 나옴
+//
 //
 //int main()
 //{
@@ -13,6 +15,8 @@
 //	res = 30 / MUL(2, 5);
 //	printf("res : %d\n", res);
 //
+//	//printf("a * 10 = %d\n", test(10));
+//	printf("a * 10 = %d\n", test(a + 10));
 //
 //	return 0;
 //}

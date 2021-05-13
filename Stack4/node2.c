@@ -8,10 +8,10 @@ typedef struct node {
 //전위함수 -> 맨앞으로 새로운 데이터 생성
 void addNode(Node* target, int data)
 {
-	Node* newNode = (Node*)malloc(sizeof(Node));
-	newNode->data = data;
-	newNode->link = target->link;
-	target->link = newNode;
+	Node* newNode = (Node*)malloc(sizeof(Node)); // 새 노드생성
+	newNode->data = data; //데이터 저장 
+	newNode->link = target->link; // 새 노드의 다음 노드에 기준 노드지정
+	target->link = newNode; // 기준노드의 다음 노드에 새 노드를 지정
 }
 int main()
 {

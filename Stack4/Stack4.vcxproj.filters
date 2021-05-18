@@ -33,5 +33,32 @@
     <ClCompile Include="원형리스트.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="stack1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stack2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="queue1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="queue2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="순차탐색.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="이진탐색.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="삽입정렬.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="선택정렬.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="퀵정렬.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -142,9 +142,18 @@
     <ClCompile Include="4-1.c" />
     <ClCompile Include="node1.c" />
     <ClCompile Include="node2.c" />
+    <ClCompile Include="queue1.c" />
+    <ClCompile Include="queue2.c" />
+    <ClCompile Include="stack1.c" />
+    <ClCompile Include="stack2.c" />
     <ClCompile Include="단방향노드.c" />
+    <ClCompile Include="삽입정렬.c" />
+    <ClCompile Include="선택정렬.c" />
+    <ClCompile Include="순차탐색.c" />
     <ClCompile Include="원형리스트.c" />
     <ClCompile Include="이중연결리스트.c" />
+    <ClCompile Include="이진탐색.c" />
+    <ClCompile Include="퀵정렬.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

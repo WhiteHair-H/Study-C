@@ -154,6 +154,7 @@
     <ClCompile Include="이중연결리스트.c" />
     <ClCompile Include="이진탐색.c" />
     <ClCompile Include="퀵정렬.c" />
+    <ClCompile Include="퀵정렬2.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

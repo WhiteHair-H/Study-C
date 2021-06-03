@@ -63,9 +63,9 @@ void printNode(HeadNode* h)
 
 }
 
-void input_ary()
+void input_ary(AlphaNode* palpha)
 {
-	AlphaNode* palpha;
+	
 	printf("알파벳을 입력하시오 : \n");
 	scanf("%s", &palpha);
 }
@@ -73,10 +73,11 @@ void input_ary()
 
 int main()
 {
-
+	AlphaNode* palpha;
 	HeadNode* head = createHead();
-	input_ary();
-	insertAlphaSort();
+	input_ary(head);
+	insertAlphaSort(head, &palpha);
+	printNode(palpha);
 
 
 	return 0;

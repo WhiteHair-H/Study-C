@@ -18,5 +18,8 @@
     <ClCompile Include="Behappy.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Alphasort.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

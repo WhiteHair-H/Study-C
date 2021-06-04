@@ -18,7 +18,7 @@ HeadNode* createHead(void)
 	return h;
 }
 
-void insertAlphaSort(HeadNode* h, int data)
+void insertAlphaSort(HeadNode* h, char data)
 {
 	AlphaNode* newNode = (AlphaNode*)malloc(sizeof(AlphaNode));
 	AlphaNode* preNode = (AlphaNode*)malloc(sizeof(AlphaNode));
@@ -49,36 +49,77 @@ void insertAlphaSort(HeadNode* h, int data)
 	}
 }
 
-
 void printNode(HeadNode* h)
 {
 	int i = 1;
 	AlphaNode* curr = h->head;
 	while (curr != NULL)
 	{
-		printf("%d번째 노드 데이터 : %d\n", i, curr->data);
+		printf("%c ", curr->data);
 		curr = curr->next;
 		i++;
 	}
-
 }
 
-void input_ary(AlphaNode* palpha)
+char input_ary(HeadNode* head)
 {
-	
-	printf("알파벳을 입력하시오 : \n");
-	scanf("%s", &palpha);
+	char data = ' ';
+	for (int i = 0; i < 10; i++)
+	{
+		printf("알파벳을 입력하시오 : \n");
+		scanf(" %c", &data);
+		insertAlphaSort(head, data);
+	}
 }
+
+void changeNode(HeadNode* head, AlphaNode *Node1, AlphaNode *Node2)
+{
+	AlphaNode* temp = (AlphaNode*)malloc(sizeof(AlphaNode));
+	temp->data = Node1->data;
+	Node1->data = Node2->data;
+	Node2->data = temp->data;
+	free(temp);
+}
+
+void insertionsort(HeadNode* h)
+{
+	AlphaNode* node1 = (AlphaNode*)malloc(sizeof(AlphaNode));
+	AlphaNode* node2 = (AlphaNode*)malloc(sizeof(AlphaNode));
+
+	int i, j, t;
+	for (i = 1; i < 10; i++)
+	{
+		//ary[i] < ary[j]
+		node1 = h->head;
+		node2 = h->head;
+		for (int q = 0; q < i; q++)
+		{
+			node1 = node1->next;
+		}
+
+		for (j = i; j > 0; j--) // 정렬 대상 원소의 인덱스 i를 j에 저장
+		{
+			if (node1->data < node2->data) // 기본값과 이전값을 비교
+			{ 
+				changeNode(h->head, node1->data, node2->data);
+			}
+		}
+		printf("\n %d단계 : ", i);
+		printNode(h->head);
+	}
+}
+
 
 
 int main()
 {
-	AlphaNode* palpha;
 	HeadNode* head = createHead();
-	input_ary(head);
-	insertAlphaSort(head, &palpha);
-	printNode(palpha);
-
+	char inp = input_ary(head);
+	insertAlphaSort(head, inp);
+	printNode(head);
+	//changeNode(head , head->head->next->next, head->head);
+	insertionsort(head);
+	printNode(head);
 
 	return 0;
 }
